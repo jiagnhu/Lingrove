@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "eyebrow": "Pricing",
+    "title": "Priced for the languages you ship, not the seats you add.",
+    "lead": "Every plan includes unlimited users and reviewers. Start with the locales you need today and add more as you grow."
+  },
+  "plans": [
+    {
+      "name": "Team",
+      "monthly": 490,
+      "annual": 410,
+      "blurb": "For product teams shipping their first few markets.",
+      "cta": "Start a 14-day trial",
+      "features": ["Up to 8 target locales", "100,000 hosted words", "GitHub & GitLab sync", "Translation memory & glossary", "Machine translation included", "Email support"]
+    },
+    {
+      "name": "Business",
+      "monthly": 1450,
+      "annual": 1190,
+      "blurb": "For companies localizing several products at release speed.",
+      "cta": "Book a demo",
+      "featured": true,
+      "features": ["Up to 30 target locales", "1M hosted words", "Everything in Team", "In-context review & screenshots", "Vendor management & cost reports", "SSO (SAML)", "Priority support"]
+    },
+    {
+      "name": "Enterprise",
+      "custom": true,
+      "blurb": "For global organisations with security and procurement requirements.",
+      "cta": "Talk to sales",
+      "features": ["Unlimited locales and words", "Everything in Business", "SCIM provisioning & audit log", "EU / US data residency", "Customer-managed keys", "99.95% uptime SLA", "Dedicated success manager"]
+    }
+  ],
+  "faq": [
+    { "q": "What counts as a hosted word?", "a": "A hosted word is any word in your source language stored in Lingrove. Translations into target locales are not counted, so adding a language never changes your word count." },
+    { "q": "Can we bring our own translators or vendors?", "a": "Yes. Invite in-house linguists or connect your existing language service providers. Lingrove also offers vetted professional translators billed per word, if you need them." },
+    { "q": "Is machine translation included?", "a": "Every plan includes machine translation with your glossary applied. Business and Enterprise can also connect their own engine accounts." },
+    { "q": "How long does onboarding take?", "a": "Most teams connect a repository and ship their first translated pull request within a day. Enterprise onboarding, including SSO and memory imports, typically takes one to two weeks." },
+    { "q": "Do you offer discounts for non-profits and education?", "a": "Yes, 40% off any annual plan for registered non-profits and accredited education institutions." }
+  ]
+}

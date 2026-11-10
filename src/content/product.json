@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "eyebrow": "Product",
+    "title": "One workflow from source string to shipped translation.",
+    "lead": "Lingrove replaces file exports, vendor portals and status spreadsheets with a single system that your engineers, linguists and managers all trust."
+  },
+  "modules": [
+    {
+      "eyebrow": "Connectors",
+      "title": "Your repository is the source of truth.",
+      "body": "Lingrove reads the file formats you already use and writes back through pull requests, so nothing bypasses code review.",
+      "points": ["JSON, YAML, XLIFF, PO, ARB, Android and iOS strings", "Branch-aware: translate feature branches before they merge", "Automatic pull requests with a changelog per locale"],
+      "panel": "sync"
+    },
+    {
+      "eyebrow": "Translation memory & glossary",
+      "title": "Say it once. Reuse it everywhere.",
+      "body": "Approved translations become reusable assets. Glossary terms are enforced for every translator, every vendor and every machine engine.",
+      "points": ["Fuzzy matching with context from neighbouring strings", "Per-locale glossaries with forbidden-term rules", "Import existing memories from TMX in minutes"],
+      "panel": "memory"
+    },
+    {
+      "eyebrow": "Quality checks",
+      "title": "Catch the bug before your customers do.",
+      "body": "Automated checks run on every segment, so reviewers spend their time on meaning, not on broken placeholders.",
+      "points": ["Placeholder, tag and plural-form validation", "Length limits from your design system", "Custom rules for tone, punctuation and brand terms"],
+      "panel": "qa"
+    }
+  ],
+  "integrations": {
+    "eyebrow": "Integrations",
+    "title": "Fits the stack you already run.",
+    "items": [
+      { "name": "GitHub", "kind": "Repository" },
+      { "name": "GitLab", "kind": "Repository" },
+      { "name": "Bitbucket", "kind": "Repository" },
+      { "name": "Figma", "kind": "Design context" },
+      { "name": "Contentful", "kind": "CMS" },
+      { "name": "WordPress", "kind": "CMS" },
+      { "name": "Slack", "kind": "Notifications" },
+      { "name": "Jira", "kind": "Project tracking" },
+      { "name": "REST & Webhooks", "kind": "Developer API" }
+    ]
+  },
+  "security": {
+    "eyebrow": "Security",
+    "title": "Enterprise controls, without the enterprise friction.",
+    "items": [
+      { "icon": "lock", "title": "SSO & SCIM", "body": "SAML single sign-on with automatic provisioning and de-provisioning." },
+      { "icon": "globe", "title": "Data residency", "body": "Choose EU or US hosting per workspace. Content never leaves its region." },
+      { "icon": "shield", "title": "Audited annually", "body": "SOC 2 Type II and ISO 27001, with reports available under NDA." },
+      { "icon": "list", "title": "Full audit trail", "body": "Every edit, approval and export is logged and exportable." }
+    ]
+  }
+}

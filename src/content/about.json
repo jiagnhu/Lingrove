@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "eyebrow": "About Lingrove",
+    "title": "Software is global on day one. Localization should be too.",
+    "lead": "We're a team of localization managers, linguists and engineers who spent years watching great products launch in one language and apologise in the rest."
+  },
+  "story": {
+    "title": "Why we started",
+    "paragraphs": [
+      "In 2019, our founders were running localization for a fast-growing SaaS company. Engineering shipped every week; translations shipped every quarter. The gap was filled with spreadsheets, exported files and late-night messages to vendors in six time zones.",
+      "Lingrove started as an internal tool that treated translations like code: versioned, reviewed and merged through pull requests. Other teams asked to use it. Today it powers localization for more than 400 software companies."
+    ]
+  },
+  "numbers": [
+    { "v": "2019", "l": "Founded" },
+    { "v": "120", "l": "Team members" },
+    { "v": "400+", "l": "Customers" },
+    { "v": "1.8B", "l": "Words translated" }
+  ],
+  "values": [
+    { "title": "Meaning over words", "body": "A correct translation that confuses the reader is still a bug. We build for clarity in every market." },
+    { "title": "Quiet tools", "body": "The best infrastructure disappears into the workflow. We measure success by how little our customers have to think about us." },
+    { "title": "Earned trust", "body": "Our customers hand us their unreleased product. We treat security and privacy as features, not paperwork." }
+  ],
+  "offices": [
+    { "city": "Amsterdam", "note": "Headquarters" },
+    { "city": "Singapore", "note": "Asia-Pacific" },
+    { "city": "Toronto", "note": "North America" }
+  ]
+}

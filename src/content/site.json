@@ -1,0 +1,30 @@
+{
+  "nav": [
+    { "label": "Product", "to": "/product" },
+    { "label": "Customers", "to": "/customers" },
+    { "label": "Pricing", "to": "/pricing" },
+    { "label": "About", "to": "/about" }
+  ],
+  "footer": {
+    "tagline": "Localization infrastructure for software teams that ship to the world.",
+    "columns": [
+      { "title": "Product", "links": [
+        { "label": "Overview", "to": "/product" },
+        { "label": "Integrations", "to": "/product#integrations" },
+        { "label": "Security", "to": "/product#security" },
+        { "label": "Pricing", "to": "/pricing" }
+      ]},
+      { "title": "Company", "links": [
+        { "label": "About", "to": "/about" },
+        { "label": "Customers", "to": "/customers" },
+        { "label": "Careers", "to": "/about#careers" }
+      ]},
+      { "title": "Resources", "links": [
+        { "label": "Documentation", "to": "/product" },
+        { "label": "Glossary guide", "to": "/product" },
+        { "label": "Status", "to": "/product" }
+      ]}
+    ],
+    "disclaimer": "Concept project. Lingrove is a fictional company; all names, customers and figures on this site are illustrative."
+  }
+}

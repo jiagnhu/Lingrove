@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "eyebrow": "Customers",
+    "title": "Teams that stopped waiting on translations.",
+    "lead": "From fintech to developer tools, Lingrove customers ship every market on release day."
+  },
+  "featured": [
+    {
+      "company": "Corvane",
+      "industry": "B2B payments · 2,400 employees",
+      "title": "From quarterly localization projects to same-day releases in 24 languages.",
+      "summary": "Corvane's checkout and dashboard ship weekly. Before Lingrove, German and Japanese lagged three sprints behind. Now every locale merges with the release branch.",
+      "metrics": [{ "v": "24", "l": "locales live" }, { "v": "0", "l": "launches held for i18n" }, { "v": "38%", "l": "lower vendor spend" }]
+    },
+    {
+      "company": "Tessella",
+      "industry": "Developer tools · 600 employees",
+      "title": "Documentation and product UI, finally speaking the same language.",
+      "summary": "Tessella unified product strings and docs under one glossary, eliminating terminology drift between the app and its documentation.",
+      "metrics": [{ "v": "11", "l": "locales" }, { "v": "92%", "l": "glossary compliance" }, { "v": "5 days", "l": "to first pull request" }]
+    }
+  ],
+  "quotes": [
+    { "quote": "Our reviewers finally see the screen they're translating. Rework dropped by more than half in the first month.", "name": "Daniel Okafor", "role": "Localization Lead, helio/pay" },
+    { "quote": "Security review took one call. The audit log and data residency answered every question our CISO had.", "name": "Priya Raman", "role": "IT Procurement, Ostra Cloud" },
+    { "quote": "It behaves like the rest of our toolchain: branches, pull requests, CI checks. Engineers barely notice it's there.", "name": "Jonas Weber", "role": "Staff Engineer, Meridian" },
+    { "quote": "We added Korean and Arabic in the same quarter without hiring another coordinator.", "name": "Sofia Marchetti", "role": "VP Product, Brightwell" }
+  ]
+}
